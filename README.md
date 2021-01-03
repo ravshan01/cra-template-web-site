@@ -1,10 +1,17 @@
 # cra-template
 
-This is the official base template for [Create React App](https://github.com/facebook/create-react-app).
+This is the template for [Create React App](https://github.com/facebook/create-react-app).
+This template includes the following dependencies
+  *react-router-dom
+  *redux
+  *react-redux
 
-If you don't specify a template (for example, `--template typescript`), this template will be used by default.
+It also includes
+  *reset.css
+  *basic template pages and routing
+  *base template Header and Footer layouts
+  *basic template redux-store, reducers and actions
+  *empty Loader, Preloader component
 
-For more information, please refer to:
 
-- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
-- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
+## Install
