@@ -21,7 +21,7 @@
     "node": ">=10"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/ravshan01/cra-template-web-site/issues"
   },
   "files": [
     "template",
