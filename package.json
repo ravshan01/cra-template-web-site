@@ -6,9 +6,13 @@
     "create-react-app",
     "template",
     "cra-template",
-    "web-site",
     "base",
-    "web"
+    "web",
+    "redux",
+    "react-redux",
+    "router",
+    "react-router",
+    "pages"
   ],
   "description": "template for Create React App.",
   "repository": {
