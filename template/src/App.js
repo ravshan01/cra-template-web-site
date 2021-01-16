@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 
+import Loader from './components/Loader/Loader';
 import Header from './layouts/Header/Header';
 import Footer from './layouts/Footer/Footer';
 
@@ -18,10 +19,10 @@ export default function App() {
 
   return (
     <div className="App">
+      { mediaLoading ? <Loader type="preloader" /> : false } 
 
       <Header />
       <Footer />
-
     </div>
   );
 }
