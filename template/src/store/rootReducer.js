@@ -5,8 +5,8 @@ import {
 
 
 
-//  Here you can create your reducer using combineReducer 
-// or using your own approach for splitting reducers
+/** Here you can create your reducer using combineReducer 
+  or using your own approach for splitting reducers **/
 export default function rootReducer(state, action){
   switch (action.type){
 
@@ -23,7 +23,7 @@ export default function rootReducer(state, action){
       return {
         ...state,
 
-        user : {}
+        user : false
       }
     };
 
