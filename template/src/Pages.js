@@ -14,8 +14,8 @@ export default function Pages(props){
       <Switch>
         
         <Route exact path="/" component={Home} />
-        <Route path="log-in" component={LogIn} />
-        <Route path="sign-up" component={SignUp} />
+        <Route path="/log-in" component={LogIn} />
+        <Route path="/sign-up" component={SignUp} />
 
       </Switch>
     </Suspense>
