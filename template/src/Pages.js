@@ -4,7 +4,7 @@ import Loader from './components/Loader/Loader';
 
 const Home = lazy( () => import('./views/HomePage/HomePage') );
 const LogIn  = lazy( () => import('./views/LogInPage/LogInPage') );
-const SignUp = laxy( () => import('./views/SignUpPage/SignUpPage') );
+const SignUp = lazy( () => import('./views/SignUpPage/SignUpPage') );
 
 
 
